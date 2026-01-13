@@ -95,7 +95,7 @@ The key components of the board are described in an anti-clockwise direction sta
 | 3   | 5 V to 3.3 V LDO         | Power regulator that converts a 5 V supply into a 3.3 V output for the module.|
 | 4   | 5 V Power On LED         | The LED (red) turns on when the USB power is connected to the board and the **Power Switch** is toggled to "ON". |
 | 5   | Power Switch             | Toggling it to “ON” powers on the board; toggling it to “OFF” powers off the board. |
-| 6   | Battery Socket           | Two-pin socket to connect a Li-ion battery. The battery serves as an alternative power supply to the **USB Power Port** for charging the board. Make sure to use a Li-ion battery that has protection circuit and fuse. The recommended specifications of the battery: capacity > 1000 mAh, output voltage 3.7 V, input voltage 4.2 V – 5 V. Please verify if polarity on the battery plug matches polarity of the socket as marked on the board’s soldermask besides the socket. |
+| 6   | Battery Socket           | Two-pin socket to connect a Li-ion battery. The battery can be used as an alternative power source to the **USB Power Port** to power the board. Make sure to use a Li-ion battery that has protection circuit and fuse. The recommended specifications of the battery: capacity > 1000 mAh, output voltage 3.7 V, input voltage 4.2 V – 5 V. Please verify if polarity on the battery plug matches polarity of the socket as marked on the board’s soldermask besides the socket. |
 | 7   | Battery Charger Chip     | 1 A linear Li-ion battery charger (AP5056), used for charging a battery connected to the **Battery Socket**. The power source for charging is the **USB Power Port**.|
 | 8   | Battery Green LED        | When the USB power is connected to the board and a battery is not connected, the green LED turns on. If a battery is connected and fully charged, the green LED turns on.  |
 | 9   | Battery Red LED          | When the USB power is connected to the board and a battery is not connected, the red LED blinks. If a battery is connected, the red LED turns on, indicating that the battery is being charged. When the battery is fully charged, the red LED turns off. |
@@ -249,7 +249,7 @@ After hardware setup, you can proceed with preparation of development tools. Go 
 
 > **Note**
 >
-> Espressif provides the **Off-line Wake Word Customization** service which allows you to customize wake words. For the detailed process, please refer to [Espressif Speech Wake Word Customization Process](https://github.com/espressif/esp-sr/blob/master/docs/wake_word_engine/ESP_Wake_Words_Customization.md).
+> Espressif provides the **Off-line Wake Word Customization** service which allows you to customize wake words. For the detailed process, please refer to [Espressif Speech Wake Word Customization Process](https://github.com/espressif/esp-sr/blob/master/docs/en/wake_word_engine/ESP_Wake_Words_Customization.rst).
 
 
 # 3. Hardware Reference
